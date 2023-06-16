@@ -18,16 +18,59 @@
 /* ----------------------------------- */
 /* Puedes usar flex o Grid para ordenar las imagenes */
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    gap: 40px;
+    padding: 40px 0;
+    
+
+    
+    
+    
+    
 }
-.container img {
-    object-fit: cover;
+
+.parte_2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr );
+    gap: 40px;
+        
+
+}
+
+.container_2 {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    gap: 40px;
+    padding: 40px 0;
+    
+    
+    
+}
+
+.parte_3{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr );
+    gap: 40px;
+        
+
+}
+
+.container_3{
+    display: flex;
+    justify-content: space-around; 
+    
+
+
+
 }
 /* ------------------------------------ */
 
 body {
     background-color: #001d3d;
     color: #f2f2f2;
+    font-family: sans-serif;
+    
     
 
 }
@@ -35,6 +78,10 @@ body {
 footer {
     background-color: #547797;
     color: #030202;
+    padding: 20px;
+    
+    
+    
 }
 
 .header__nav {
@@ -51,15 +98,21 @@ footer {
     display: flex;
     list-style: none;
     gap: 20px;
-    
 }
+    
+    
+
 
 .header__nav__buttom {
-    padding: .3em 1em;
-    background-color: #fcfcfc;
+    padding: .4em 2em;
+    background-color: #0043fa00;
     border-radius: 20px;
     font-size: 1rem;
-    color: #030202;
+    color: #fcfcfc;
+    
+    
+    
+
 
 
 }
@@ -78,7 +131,7 @@ footer {
 }
 
 img{
-    border-radius: 5%;
+    border-radius: 20px;
 
 
 
@@ -87,18 +140,40 @@ img{
 
 .jumbotrom{
     text-align: center;
+    
+    
     /* te */
 
 }
 
+.jumbotrom_titulo{
+    font-size: 4em;
+    
+}
+
+.jumbotrom_subtitulo{
+    padding: 40px 0;
+    font: 1em sans-serif;
+
+}
+
+h2{
+    font-size: 2em;
+
+}
+
+p{
+    font-size: 1em;
+}
  
 
 .jumbotrom_buttom{
-    padding: .3em 1em;
+    padding: .4em 2em;
     background-color: #fcfcfc;
     border-radius: 20px;
     font-size: 1rem;
     color: #030202;
+    
 }
 
  
@@ -110,9 +185,22 @@ img{
 
 .header {
     background-color: #0a3863;
+    padding: 20px;
+    
     
 
 }
+
+.texto_2{
+    padding: 40px 0;
+
+}
+
+
+
+
+
+
 
 
 
